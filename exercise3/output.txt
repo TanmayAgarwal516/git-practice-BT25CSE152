@@ -1,0 +1,45 @@
+Command: bash exercise3/greet.sh
+Enter your name:
+Hello, Tanmay! Welcome.
+
+Command: git add exercise3/greet.sh
+
+Command: git commit -m "Exercise 03: Add greeting script"
+On branch main
+Your branch is ahead of 'origin/main' by 3 commits.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.DS_Store
+	exercise2/
+	exercise3/input.sh
+	exercise3/output.txt
+	exercise4/
+	exercise5/
+	exersice1/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Command: git status
+On branch main
+Your branch is ahead of 'origin/main' by 3 commits.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.DS_Store
+	exercise2/
+	exercise3/input.sh
+	exercise3/output.txt
+	exercise4/
+	exercise5/
+	exersice1/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Command: git log --oneline
+5905f6f Exercise 03: Add greeting script
+1901b0e Exercise 03: Add greeting script
+b3c965c Exercise 02: Create repository
+432e545 Initial commit
