@@ -1,0 +1,39 @@
+Exercise 05: Inspect Staged and Unstaged Edits
+
+Staging the first change...
+Making another change...
+
+Command: git diff
+diff --git a/exercise5/file.txt b/exercise5/file.txt
+index 4709c28..63f35c3 100644
+--- a/exercise5/file.txt
++++ b/exercise5/file.txt
+@@ -1,2 +1,3 @@
+ Original content
+ Staged change
++Unstaged change
+
+Command: git diff --staged
+diff --git a/exercise5/file.txt b/exercise5/file.txt
+index 9415d49..4709c28 100644
+--- a/exercise5/file.txt
++++ b/exercise5/file.txt
+@@ -1 +1,2 @@
+ Original content
++Staged change
+
+Command: git diff HEAD
+diff --git a/exercise5/file.txt b/exercise5/file.txt
+index 9415d49..63f35c3 100644
+--- a/exercise5/file.txt
++++ b/exercise5/file.txt
+@@ -1 +1,3 @@
+ Original content
++Staged change
++Unstaged change
+
+Staging all changes...
+
+Command: git commit
+[main 262de1f] Exercise 05: Inspect staged and unstaged edits
+ 1 file changed, 2 insertions(+)
