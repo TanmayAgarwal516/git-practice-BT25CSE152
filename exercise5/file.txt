@@ -1,1 +1,3 @@
 Original content
+Staged change
+Unstaged change
